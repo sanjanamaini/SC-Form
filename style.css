@@ -1,0 +1,27 @@
+.heading{
+    font-size: 4em;
+    margin: 55px;
+    padding:10px 10px;
+   
+}
+.navi{
+    padding:0px 639px;
+
+}
+.full{
+    background-color: rgb(149, 113, 185);
+    padding:10px 10px;
+}
+
+.sub-heading{
+    font-weight:normal;
+    background-color:antiquewhite;
+    display: inline;
+    padding:5px 10px;
+}
+
+.sd{
+    font-weight: bold;
+    color: beige;
+    padding: 10px 10px;
+}
