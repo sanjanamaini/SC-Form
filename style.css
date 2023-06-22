@@ -54,10 +54,27 @@ body{
     margin:10px 10px;
     align-self:center;
 }
-.ad p textarea{
+/* .ad p textarea{
   margin-left: 100px;
   /* background-color: black; */
   /* align-self: center; */
+
+
+.ad p textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.ad p textarea:focus {
+    outline: none;
+    border-color: #5c9eff;
+    box-shadow: 0 0 0 2px #5c9eff;
 }
 .image{
     width: 10%;
