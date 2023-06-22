@@ -1,3 +1,7 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 .heading{
     font-size: 4em;
     margin: 20px;
@@ -5,27 +9,55 @@
    
    
 }
-.navi{
-    padding:0px 639px;
+nav{
+    background-color: black;
+    text-align: center;
+    margin: 20px;
+    color:white;
 
 }
-.full{
-    background-color: rgb(149, 113, 185);
-    padding:10px 10px;
+nav ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin:20px 0px;
+}
+nav ul li{
+    align-items: center; 
+    /*  */
+    list-style:none;
+} 
+body{
+    background-color: gray;
+    /* padding:10px 10px; */
 }
 
 .subHeading{
     font-weight:normal;
     background-color:antiquewhite;
     display: inline;
-    padding:5px 100px 5px 100px;
-    /* margin:0 120px; */
+    padding:5px 10px;
+    margin-top: 120px;
+    /* align:"justify"*/ 
 }
 
 .sd{
     font-weight: bold;
     color: beige;
     padding: 10px 10px;
+}
+
+.sd p{
+    margin:10px 10px;
+}
+.ad p{
+    margin:10px 10px;
+    align-self:center;
+}
+.ad p textarea{
+  margin-left: 100px;
+  /* background-color: black; */
+  /* align-self: center; */
 }
 .image{
     width: 10%;
@@ -44,11 +76,14 @@
 }
 
 hr{
-    margin: 10px;
+    margin: 20px 0px;
    
 }
 .ad{
     font-weight: bold;
     color: beige;
     padding: 10px 10px;
+}
+h2{
+    margin:10px 10px;
 }
