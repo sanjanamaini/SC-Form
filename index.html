@@ -17,27 +17,35 @@
         
         
     </nav>
-    <main>
-        <h2 class="subHeading">STUDENT DETAILS</h2>
-        <div class="sd">
-            <p>Name*: <input type="text" required name="name" class="det"></p>
-            <p>Registration Number: <input type="text" requried name="registration-number" class="det"></p>
-            <p>Department: <input type="text" requried name="department" class="det"></p>
-            <p>Current CGPA: <input type="text" requried name="cgpa" class="det"></p>
-            <fieldset>
-                <legend>Hosteler/Day Scholar</legend>
-                <p>Hosteler <input type="radio" requried name="hosteler/day scholar" id="hosteler">
-                    Day Scholar <input type="radio" requried name="hosteler/day scholar" id="day scholar">
-                </p>
-            </fieldset>
-            
+
+    <form id="scform">
+        <div class="pd">
+            <div class="sd" id="one">
+                <h2 class="subHeading">STUDENT DETAILS</h2>
+                <p>Name*: <input type="text" required name="name" class="det"></p>
+                <p>Registration Number: <input type="text" requried name="registration-number" class="det"></p>
+                <p>Department: <input type="text" requried name="department" class="det"></p>
+                <p>Current CGPA: <input type="text" requried name="cgpa" class="det"></p>
+                <fieldset>
+                    <legend>Hosteler/Day Scholar</legend>
+                    <p>Hosteler <input type="radio" requried name="hosteler/day scholar" id="hosteler">
+                        Day Scholar <input type="radio" requried name="hosteler/day scholar" id="day scholar">
+                    </p>
+                </fieldset>
+                
+            </div>
+            <div class="sd" id="two">
+                <img src="SC.png" alt="" id="pfp">
+                <input type="file" >
+            </div>
         </div>
+        
         
         <hr>
         <h2 class="subHeading">APPLICATION DETAILS</h2>
         <div class="ad">
             
-            <p>Position you are applying for 
+            <p class>Position you are applying for 
                 <select name="position" id="position">
                     <option value="">--Select a position--</option>
                     <option value="President">President</option>
@@ -53,7 +61,7 @@
             <p>Your future plans <br><textarea name="future" id="future" cols="30" rows="10"></textarea></p>
             <input type="submit" value="submit">
         </div>
-    </main>
+    </form>
     <script src="script.js"></script>
     
     
