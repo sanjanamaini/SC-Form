@@ -43,15 +43,19 @@ body{
 
 .sd{
     font-weight: bold;
-    color: beige;
+    /* color: beige; */
     padding: 10px 10px;
+    /* font-size:2vw; */
 }
-
+.pd{
+    display: flex;
+}
 .sd p{
-    margin:10px 10px;
+    margin:30px 10px;
+    color:beige;
 }
 .ad p{
-    margin:10px 10px;
+    margin:30px 10px;
     align-self:center;
 }
 /* .ad p textarea{
@@ -83,7 +87,24 @@ body{
   margin-right: auto;
   /* width: 50%; */
 }
+/* .pos{
+    border:1px solid black;
+} */
     
+#pfp{
+    /* width: 30vw; */
+    height:20vw;
+
+
+}
+#one{
+    width:75vw;
+}
+#two{
+    text-align: center;
+    padding: 1vw 1vw;
+}
+
 
 
 .det{
